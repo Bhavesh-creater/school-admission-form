@@ -60,7 +60,7 @@ document.querySelectorAll('.faq-question').forEach(button => {
 
 // --- 4. Google Sheets Backend Submission ---
 // Replace the URL below with your actual Google Web App URL (ending in /exec)
-const GOOGLE_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbwOuSmlCySaQeUs3UnskG-q1JUibJVU709qDjAhqIVCn7zLrDodjNG1FqSRa1oKl2-e/exec';
+const GOOGLE_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycby36WXjppt1DoWZydryspo6EF__bN0D4ANwMHRoyGRKSlE5-gXOo5-vOQ8AeqlDhak/exec';
 
 document.getElementById('admissionForm').addEventListener('submit', function(event) {
     event.preventDefault();
